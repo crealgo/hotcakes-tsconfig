@@ -10,21 +10,16 @@
 		"incremental": true,
 		"isolatedModules": true,
 		"jsx": "react-jsx",
-		"lib": [
-			"esnext",
-			"dom",
-			"dom.iterable"
-		],
-		"module": "Preserve",
-		"moduleResolution": "Bundler",
+		"lib": ["esnext", "dom", "dom.iterable"],
 		"noEmit": true,
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"sourceMap": true,
+		"strictNullChecks": true,
 		"strict": true,
-		"target": "ES6"
+		"target": "ES6",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext"
 	},
-	"exclude": [
-		"node_modules"
-	]
+	"include": ["src"]
 }
